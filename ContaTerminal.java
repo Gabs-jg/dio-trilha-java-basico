@@ -17,6 +17,8 @@ public class ContaTerminal {
         System.out.print("Por favor, digite o saldo em conta: ");
         double saldo = sc.nextFloat();
 
+        sc.close();
+
         System.out.println("Olá " + nomeCliente + ", obrigado por criar uma conta em nosso banco, sua agência é " + numeroAgencia + " conta " + numeroConta + " e seu saldo " + saldo + " já está disponível para saque.");
 
     }
