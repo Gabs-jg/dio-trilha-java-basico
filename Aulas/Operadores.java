@@ -68,5 +68,33 @@ public class Operadores {
         a=6;
         resultado = a==b ? "Verdadeiro" : "Falso";
         System.out.println(resultado);
+
+        String nomeUm = "Gabriel";
+        String nomeDois = "Gabriel";
+        String nomeTres = new String("Gabriel");
+
+        System.out.println(nomeUm==nomeDois);
+        System.out.println(nomeUm==nomeTres);
+        System.out.println(nomeUm.equals(nomeTres));
+
+        int numero1 = 1;
+        int numero2 = 2;
+
+        if(numero1<numero2) {
+            System.out.println("Condição verdadeira");
+        }
+
+        boolean simNao = numero1==numero2;
+
+        System.out.println("Número 1 é igual a número 2? " + simNao);
+
+        simNao = numero1!=numero2;
+
+        System.out.println("Número 1 é diferente a número 2? " + simNao);
+
+        simNao = numero1>numero2;
+
+        System.out.println("Número 1 é maior a número 2? " + simNao);
+
     }
 }
