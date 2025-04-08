@@ -96,5 +96,20 @@ public class Operadores {
 
         System.out.println("Número 1 é maior a número 2? " + simNao);
 
+        boolean condicao1 = true;
+        boolean condicao2 = true;
+
+        if(condicao1 && condicao2) {
+            System.out.println("As duas condições são verdadeiras.");
+        }
+
+        if(condicao1 && (7 > 4)) {
+            System.out.println("As duas condições são verdadeiras.");
+        }
+
+        if(condicao1 || condicao2) {
+            System.out.println("Alguma das condições é verdadeira.");
+        }
+
     }
 }
